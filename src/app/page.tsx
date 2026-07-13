@@ -27,14 +27,30 @@ export default function Home() {
             Tlamelo Mokgatlhane
           </p>
 
-          <a
-            href="https://github.com/HelloMelo44"
-            target="_blank"
-            rel="noreferrer"
-            className="text-sm font-medium underline decoration-white/30 underline-offset-4 transition hover:decoration-white"
-          >
-            GitHub
-          </a>
+          <nav className="flex items-center gap-5 text-sm font-medium">
+  <a
+    href="#about"
+    className="transition hover:text-[#c5a46d]"
+  >
+    About
+  </a>
+
+  <a
+    href="#projects"
+    className="transition hover:text-[#c5a46d]"
+  >
+    Work
+  </a>
+
+  <a
+    href="https://github.com/HelloMelo44"
+    target="_blank"
+    rel="noreferrer"
+    className="underline decoration-white/30 underline-offset-4 transition hover:decoration-white"
+  >
+    GitHub
+  </a>
+</nav>
         </header>
 
         <div className="py-20 sm:py-28 lg:py-32">
