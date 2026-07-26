@@ -13,9 +13,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tlamelo Mokgatlhane | Data, Applications & Software",
+  metadataBase: new URL(
+    "https://portfolio-website-self-nine-23.vercel.app"
+  ),
+
+  title: {
+    default: "Tlamelo Mokgatlhane | Data, Applications & Software",
+    template: "%s | Tlamelo Mokgatlhane",
+  },
+
   description:
     "Portfolio of Tlamelo Mokgatlhane, a database and applications professional building practical projects in data analytics, software engineering and automation.",
+
+  openGraph: {
+    title: "Tlamelo Mokgatlhane | Data, Applications & Software",
+    description:
+      "Practical work across enterprise applications, data analytics, software engineering and automation.",
+    url: "/",
+    siteName: "Tlamelo Mokgatlhane Portfolio",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Tlamelo Mokgatlhane | Data, Applications & Software",
+    description:
+      "Practical work across enterprise applications, data analytics, software engineering and automation.",
+  },
 };
 
 export default function RootLayout({
