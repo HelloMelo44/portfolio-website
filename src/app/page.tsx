@@ -41,6 +41,12 @@ export default function Home() {
   >
     Work
   </a>
+  <a
+  href="#contact"
+  className="transition hover:text-[#c5a46d]"
+>
+  Contact
+</a>
 
   <a
     href="https://github.com/HelloMelo44"
@@ -190,6 +196,61 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section
+  id="contact"
+  className="border-t border-white/15 px-6 py-24 sm:px-10 lg:px-16"
+>
+  <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_2fr]">
+    <div>
+      <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c5a46d]">
+        Contact
+      </p>
+    </div>
+
+    <div>
+      <h2 className="max-w-4xl text-4xl font-semibold tracking-tight sm:text-6xl">
+        Interested in working together?
+      </h2>
+
+      <p className="mt-6 max-w-2xl text-lg leading-8 text-white/60">
+        I am open to opportunities involving enterprise applications, data,
+        software development, automation and operational technology.
+      </p>
+
+      <div className="mt-10 flex flex-wrap gap-x-8 gap-y-4 text-lg font-semibold">
+        <a
+          href="mailto:tlamelo.mokgatlhane@gmail.com"
+          className="border-b border-white pb-1 transition hover:text-[#c5a46d]"
+        >
+          Email
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/tlamelo-mokgatlhane-a93832157"
+          target="_blank"
+          rel="noreferrer"
+          className="border-b border-white pb-1 transition hover:text-[#c5a46d]"
+        >
+          LinkedIn
+        </a>
+
+        <a
+          href="https://github.com/HelloMelo44"
+          target="_blank"
+          rel="noreferrer"
+          className="border-b border-white pb-1 transition hover:text-[#c5a46d]"
+        >
+          GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer className="mx-auto mt-24 flex max-w-7xl flex-col gap-3 border-t border-white/15 pt-6 text-sm text-white/45 sm:flex-row sm:items-center sm:justify-between">
+    <p>© {new Date().getFullYear()} Tlamelo Mokgatlhane</p>
+    <p>Built with Next.js and TypeScript.</p>
+  </footer>
+</section>
     </main>
   );
 }
