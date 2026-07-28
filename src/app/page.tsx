@@ -22,12 +22,12 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#171717] text-[#ece7dd]">
       <section className="mx-auto flex min-h-screen max-w-7xl flex-col justify-between px-6 py-8 sm:px-10 lg:px-16">
-        <header className="flex items-center justify-between border-b border-white/15 pb-5">
+        <header className="flex flex-col gap-5 border-b border-white/15 pb-5 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-sm font-semibold uppercase tracking-[0.25em]">
             Tlamelo Mokgatlhane
           </p>
 
-          <nav className="flex items-center gap-5 text-sm font-medium">
+          <nav className="flex w-full flex-wrap items-center gap-x-5 gap-y-3 text-sm font-medium sm:w-auto">
   <a
     href="#about"
     className="transition hover:text-[#c5a46d]"
@@ -59,12 +59,12 @@ export default function Home() {
 </nav>
         </header>
 
-        <div className="py-20 sm:py-28 lg:py-32">
+        <div className="py-16 sm:py-28 lg:py-32">
           <p className="mb-6 text-sm font-semibold uppercase tracking-[0.3em] text-[#c5a46d]">
             Database · Applications · Data · Software
           </p>
 
-          <h1 className="max-w-5xl text-5xl font-semibold leading-[1.02] tracking-tight sm:text-7xl lg:text-8xl">
+          <h1 className="max-w-5xl text-4xl font-semibold leading-[1.05] tracking-tight min-[420px]:text-5xl sm:text-7xl lg:text-8xl">
             I build and improve the systems behind the work.
           </h1>
 
