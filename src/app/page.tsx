@@ -30,7 +30,7 @@ const projects = [
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#171717] text-[#ece7dd]">
-      <section className="mx-auto flex min-h-screen max-w-7xl flex-col justify-between px-6 py-8 sm:px-10 lg:px-16 [@media(max-height:700px)]:min-h-0">
+      <section className="mx-auto flex min-h-[calc(100vh-1px)] max-w-7xl flex-col justify-between px-6 py-8 sm:px-10 lg:px-16 [@media(max-height:700px)]:min-h-0">
         <header className="flex flex-col gap-5 border-b border-white/15 pb-5 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-sm font-semibold uppercase tracking-[0.25em]">
             Tlamelo Mokgatlhane
@@ -60,12 +60,12 @@ export default function Home() {
           </nav>
         </header>
 
-        <div className="py-16 sm:py-20 lg:py-28 [@media(max-height:700px)]:py-14">
+        <div className="py-12 sm:py-16 lg:py-20 [@media(max-height:750px)]:py-10">
           <p className="mb-6 text-sm font-semibold uppercase tracking-[0.3em] text-[#c5a46d]">
             Database · Applications · Analytics · Software
           </p>
 
-          <h1 className="max-w-5xl text-4xl font-semibold leading-[1.05] tracking-tight min-[420px]:text-5xl sm:text-6xl lg:text-7xl xl:text-8xl [@media(max-height:700px)]:text-6xl">
+          <h1 className="max-w-5xl text-4xl font-semibold leading-[1.05] tracking-tight min-[420px]:text-5xl sm:text-6xl lg:text-7xl xl:text-7xl 2xl:text-8xl [@media(max-height:700px)]:text-6xl">
             Building things. Improving others. Keeping both simple.
           </h1>
 
