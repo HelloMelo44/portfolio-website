@@ -66,8 +66,7 @@ export default function Home() {
           </p>
 
           <h1 className="max-w-5xl text-4xl font-semibold leading-[1.05] tracking-tight min-[420px]:text-5xl sm:text-6xl lg:text-7xl xl:text-8xl [@media(max-height:700px)]:text-6xl">
-            Building things. Improving others. Trying not to make either more
-            complicated.
+            Building things. Improving others. Keeping both simple.
           </h1>
 
           <p className="mt-8 max-w-2xl text-lg leading-8 text-white/65 sm:text-xl">
