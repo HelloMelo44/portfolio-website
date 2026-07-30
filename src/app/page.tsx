@@ -10,6 +10,15 @@ const projects = [
   },
   {
     number: "02",
+    title: "Regulatory Applications SQL Analytics Database",
+    description:
+      "A PostgreSQL analytics database for synthetic regulatory applications data, including table design, CSV import, SLA reporting queries, reusable views and documentation.",
+    technologies: ["PostgreSQL", "SQL", "pgAdmin", "Reporting Views"],
+    github:
+      "https://github.com/HelloMelo44/regulatory-applications-sql",
+  },
+  {
+    number: "03",
     title: "Portfolio Management Data Model",
     description:
       "A Spring Boot and JPA project modelling customers, advisors, portfolios, investment products, appointments and financial transactions.",
@@ -28,35 +37,27 @@ export default function Home() {
           </p>
 
           <nav className="flex w-full flex-wrap items-center gap-x-5 gap-y-3 text-sm font-medium sm:w-auto">
-  <a
-    href="#about"
-    className="transition hover:text-[#c5a46d]"
-  >
-    About
-  </a>
+            <a href="#about" className="transition hover:text-[#c5a46d]">
+              About
+            </a>
 
-  <a
-    href="#projects"
-    className="transition hover:text-[#c5a46d]"
-  >
-    Work
-  </a>
-  <a
-  href="#contact"
-  className="transition hover:text-[#c5a46d]"
->
-  Contact
-</a>
+            <a href="#projects" className="transition hover:text-[#c5a46d]">
+              Work
+            </a>
 
-  <a
-    href="https://github.com/HelloMelo44"
-    target="_blank"
-    rel="noreferrer"
-    className="underline decoration-white/30 underline-offset-4 transition hover:decoration-white"
-  >
-    GitHub
-  </a>
-</nav>
+            <a href="#contact" className="transition hover:text-[#c5a46d]">
+              Contact
+            </a>
+
+            <a
+              href="https://github.com/HelloMelo44"
+              target="_blank"
+              rel="noreferrer"
+              className="underline decoration-white/30 underline-offset-4 transition hover:decoration-white"
+            >
+              GitHub
+            </a>
+          </nav>
         </header>
 
         <div className="py-16 sm:py-20 lg:py-28 [@media(max-height:700px)]:py-14">
@@ -69,9 +70,9 @@ export default function Home() {
           </h1>
 
           <p className="mt-8 max-w-2xl text-lg leading-8 text-white/65 sm:text-xl">
-            I work across enterprise applications, databases, reporting and 
-            process improvement, helping systems do what they were meant to 
-            do in the first place.
+            I work across enterprise applications, databases, reporting and
+            process improvement, helping systems do what they were meant to do
+            in the first place.
           </p>
 
           <div className="mt-10">
@@ -89,47 +90,50 @@ export default function Home() {
           <p>Portfolio in progress. Naturally.</p>
         </div>
       </section>
+
       <section
-  id="about"
-  className="border-t border-white/15 px-6 py-24 sm:px-10 lg:px-16"
->
-  <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_2fr]">
-    <div>
-      <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c5a46d]">
-        About
-      </p>
-    </div>
+        id="about"
+        className="border-t border-white/15 px-6 py-24 sm:px-10 lg:px-16"
+      >
+        <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_2fr]">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c5a46d]">
+              About
+            </p>
+          </div>
 
-    <div>
-      <h2 className="max-w-4xl text-4xl font-semibold tracking-tight sm:text-6xl">
-        Building practical systems around real operational needs.
-      </h2>
+          <div>
+            <h2 className="max-w-4xl text-4xl font-semibold tracking-tight sm:text-6xl">
+              Building practical systems around real operational needs.
+            </h2>
 
-      <div className="mt-10 grid gap-8 text-lg leading-8 text-white/60 md:grid-cols-2">
-        <p>
-          I am a database and applications professional with experience across
-          enterprise systems, SQL databases, reporting, service management and
-          operational support.
-        </p>
+            <div className="mt-10 grid gap-8 text-lg leading-8 text-white/60 md:grid-cols-2">
+              <p>
+                I am a database and applications professional with experience
+                across enterprise systems, SQL databases, reporting, service
+                management and operational support.
+              </p>
 
-        <p>
-          I am expanding that foundation through practical projects in Python,
-          data analytics, software engineering, automation and data engineering.
-        </p>
+              <p>
+                I am expanding that foundation through practical projects in
+                Python, data analytics, software engineering, automation and
+                data engineering.
+              </p>
 
-        <p>
-          My work sits between technology and operations, with a focus on how
-          systems support people, processes and decision-making.
-        </p>
+              <p>
+                My work sits between technology and operations, with a focus on
+                how systems support people, processes and decision-making.
+              </p>
 
-        <p>
-          I value clear documentation, maintainable solutions and technology
-          that remains useful beyond the initial implementation.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
+              <p>
+                I value clear documentation, maintainable solutions and
+                technology that remains useful beyond the initial implementation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section
         id="projects"
         className="border-t border-white/15 px-6 py-24 sm:px-10 lg:px-16"
@@ -196,61 +200,62 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section
-  id="contact"
-  className="border-t border-white/15 px-6 py-24 sm:px-10 lg:px-16"
->
-  <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_2fr]">
-    <div>
-      <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c5a46d]">
-        Contact
-      </p>
-    </div>
+        id="contact"
+        className="border-t border-white/15 px-6 py-24 sm:px-10 lg:px-16"
+      >
+        <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_2fr]">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c5a46d]">
+              Contact
+            </p>
+          </div>
 
-    <div>
-      <h2 className="max-w-4xl text-4xl font-semibold tracking-tight sm:text-6xl">
-        Interested in working together?
-      </h2>
+          <div>
+            <h2 className="max-w-4xl text-4xl font-semibold tracking-tight sm:text-6xl">
+              Interested in working together?
+            </h2>
 
-      <p className="mt-6 max-w-2xl text-lg leading-8 text-white/60">
-        I am open to opportunities involving enterprise applications, data,
-        software development, automation and operational technology.
-      </p>
+            <p className="mt-6 max-w-2xl text-lg leading-8 text-white/60">
+              I am open to opportunities involving enterprise applications,
+              data, software development, automation and operational technology.
+            </p>
 
-      <div className="mt-10 flex flex-wrap gap-x-8 gap-y-4 text-lg font-semibold">
-        <a
-          href="mailto:tlamelo.mokgatlhane@gmail.com"
-          className="border-b border-white pb-1 transition hover:text-[#c5a46d]"
-        >
-          Email
-        </a>
+            <div className="mt-10 flex flex-wrap gap-x-8 gap-y-4 text-lg font-semibold">
+              <a
+                href="mailto:tlamelo.mokgatlhane@gmail.com"
+                className="border-b border-white pb-1 transition hover:text-[#c5a46d]"
+              >
+                Email
+              </a>
 
-        <a
-          href="https://www.linkedin.com/in/tlamelo-mokgatlhane-a93832157"
-          target="_blank"
-          rel="noreferrer"
-          className="border-b border-white pb-1 transition hover:text-[#c5a46d]"
-        >
-          LinkedIn
-        </a>
+              <a
+                href="https://www.linkedin.com/in/tlamelo-mokgatlhane-a93832157"
+                target="_blank"
+                rel="noreferrer"
+                className="border-b border-white pb-1 transition hover:text-[#c5a46d]"
+              >
+                LinkedIn
+              </a>
 
-        <a
-          href="https://github.com/HelloMelo44"
-          target="_blank"
-          rel="noreferrer"
-          className="border-b border-white pb-1 transition hover:text-[#c5a46d]"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+              <a
+                href="https://github.com/HelloMelo44"
+                target="_blank"
+                rel="noreferrer"
+                className="border-b border-white pb-1 transition hover:text-[#c5a46d]"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
 
-  <footer className="mx-auto mt-24 flex max-w-7xl flex-col gap-3 border-t border-white/15 pt-6 text-sm text-white/45 sm:flex-row sm:items-center sm:justify-between">
-    <p>© {new Date().getFullYear()} Tlamelo Mokgatlhane</p>
-    <p>Built with Next.js and TypeScript.</p>
-  </footer>
-</section>
+        <footer className="mx-auto mt-24 flex max-w-7xl flex-col gap-3 border-t border-white/15 pt-6 text-sm text-white/45 sm:flex-row sm:items-center sm:justify-between">
+          <p>© {new Date().getFullYear()} Tlamelo Mokgatlhane</p>
+          <p>Built with Next.js and TypeScript.</p>
+        </footer>
+      </section>
     </main>
   );
 }
