@@ -62,17 +62,18 @@ export default function Home() {
 
         <div className="py-16 sm:py-20 lg:py-28 [@media(max-height:700px)]:py-14">
           <p className="mb-6 text-sm font-semibold uppercase tracking-[0.3em] text-[#c5a46d]">
-            Database · Applications · Data · Software
+            Database · Applications · Analytics · Software
           </p>
 
           <h1 className="max-w-5xl text-4xl font-semibold leading-[1.05] tracking-tight min-[420px]:text-5xl sm:text-6xl lg:text-7xl xl:text-8xl [@media(max-height:700px)]:text-6xl">
-            I build and improve the systems behind the work.
+            Building things. Improving others. Trying not to make either more
+            complicated.
           </h1>
 
           <p className="mt-8 max-w-2xl text-lg leading-8 text-white/65 sm:text-xl">
-            I work across enterprise applications, databases, reporting and
-            process improvement, helping systems do what they were meant to do
-            in the first place.
+            My work sits across enterprise applications, databases, reporting and
+            software development. This is where I keep some of what I have
+            built, learned and occasionally had to fix.
           </p>
 
           <div className="mt-10">
@@ -80,7 +81,7 @@ export default function Home() {
               href="#projects"
               className="inline-flex items-center border-b border-white pb-1 font-semibold transition hover:opacity-60"
             >
-              Selected work ↓
+              See what I&apos;ve been working on ↓
             </a>
           </div>
         </div>
@@ -142,20 +143,15 @@ export default function Home() {
           <div className="grid gap-8 border-b border-white/15 pb-10 lg:grid-cols-[1fr_2fr]">
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c5a46d]">
-                Selected work
+                Things I&apos;ve built
               </p>
             </div>
 
             <div>
               <h2 className="text-4xl font-semibold tracking-tight sm:text-6xl">
-                Practical projects, not decorative ones.
+                A growing collection of projects, experiments and ideas that
+                made it past the notebook stage.
               </h2>
-
-              <p className="mt-5 max-w-2xl text-lg leading-8 text-white/60">
-                Work across analytics and software engineering, built around
-                real operational problems rather than features looking for a
-                reason to exist.
-              </p>
             </div>
           </div>
 
@@ -208,18 +204,18 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_2fr]">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#c5a46d]">
-              Contact
+              Elsewhere
             </p>
           </div>
 
           <div>
             <h2 className="max-w-4xl text-4xl font-semibold tracking-tight sm:text-6xl">
-              Interested in working together?
+              A few other places I exist online.
             </h2>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-white/60">
-              I am open to opportunities involving enterprise applications,
-              data, software development, automation and operational technology.
+              For projects, questions or anything that does not fit neatly into
+              a LinkedIn connection request, email usually works best.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-x-8 gap-y-4 text-lg font-semibold">
